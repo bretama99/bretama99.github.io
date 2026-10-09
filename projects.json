@@ -1,0 +1,248 @@
+[
+  {
+    "id": "emr",
+    "title": "Electronic Medical Records & Laboratory Platform",
+    "category": "web",
+    "label": "Healthcare \u00b7 Production software",
+    "desc": "Connected patient registration, clinical records, laboratory requests, results, and reporting in one operational system.",
+    "stack": [
+      "Java",
+      "Spring Boot",
+      "Vue.js",
+      "PostgreSQL",
+      "REST APIs"
+    ],
+    "flow": [
+      "Patient registration",
+      "Clinical records",
+      "Laboratory results"
+    ],
+    "contribution": [
+      "Developed backend services, relational data models, validation rules, and user-facing workflows.",
+      "Integrated clinical and laboratory information with role-based access and API integrations.",
+      "Participated in requirements analysis, testing, deployment, and production support."
+    ],
+    "context": "Professional healthcare software",
+    "featured": true
+  },
+  {
+    "id": "food",
+    "title": "Food Ordering & Delivery Platform",
+    "category": "mobile",
+    "label": "Commerce \u00b7 Web & mobile",
+    "desc": "Customer, kitchen, courier, and administration applications coordinated around a shared order lifecycle.",
+    "stack": [
+      "Spring Boot",
+      "Flutter",
+      "Vue.js",
+      "PostgreSQL",
+      "Stripe"
+    ],
+    "flow": [
+      "Order & pay",
+      "Prepare & dispatch",
+      "Deliver & track"
+    ],
+    "contribution": [
+      "Implemented backend order routing, role-based operations, and database persistence.",
+      "Built payment processing, notifications, and integration points across the applications.",
+      "Supported menus, order placement, preparation, dispatch, delivery, and status tracking."
+    ],
+    "context": "Multi-application product",
+    "featured": true
+  },
+  {
+    "id": "medical-assistant",
+    "title": "Medical Knowledge & Healthcare AI Assistant",
+    "category": "ai",
+    "label": "Applied AI \u00b7 Retrieval & APIs",
+    "desc": "A source-grounded assistant over WHO and CDC documents, combining keyword and semantic retrieval before answer generation.",
+    "stack": [
+      "Python",
+      "FastAPI",
+      "BM25",
+      "FAISS",
+      "RAG",
+      "Docker"
+    ],
+    "flow": [
+      "Find evidence",
+      "Filter & re-rank",
+      "Answer with sources"
+    ],
+    "contribution": [
+      "Developed hybrid keyword and dense retrieval with semantic search, evidence filtering, and re-ranking.",
+      "Exposed real-time and streaming queries through a containerized FastAPI service.",
+      "Added source-grounded answers and checks for unsupported output."
+    ],
+    "context": "Applied AI project",
+    "featured": true
+  },
+  {
+    "id": "pharmacy",
+    "title": "Electronic Prescription & Pharmacy Systems",
+    "category": "mobile",
+    "label": "Healthcare \u00b7 Backend & mobile",
+    "desc": "Digital prescription flows and pharmacy operations, from controlled access and traceable prescriptions to inventory and fulfilment.",
+    "stack": [
+      "Java",
+      "Spring Boot",
+      "Flutter",
+      "MySQL"
+    ],
+    "flow": [
+      "Create prescription",
+      "Validate & track",
+      "Pharmacy fulfilment"
+    ],
+    "contribution": [
+      "Built creation, transmission, validation, and tracking of electronic prescriptions.",
+      "Developed medicine inventory, order processing, interaction checking, online fulfilment, and billing workflows.",
+      "Supported controlled access and operational record management."
+    ],
+    "context": "Professional healthcare software"
+  },
+  {
+    "id": "restaurant",
+    "title": "Multi-Tenant Restaurant Management",
+    "category": "web",
+    "label": "SaaS \u00b7 Multi-tenancy",
+    "desc": "Restaurant-management software within a wider portfolio of production web, mobile, and enterprise systems.",
+    "stack": [
+      "Spring Boot",
+      "Laravel",
+      "Vue.js",
+      "Flutter",
+      "SQL",
+      "Docker"
+    ],
+    "flow": [
+      "Tenant access",
+      "Restaurant workflows",
+      "Web & mobile"
+    ],
+    "contribution": [
+      "Led or contributed to multi-tenant restaurant-management software.",
+      "Professional work across this product portfolio included REST APIs, database architecture, authentication, integrations, and cloud-ready applications."
+    ],
+    "context": "Production system; stack reflects the documented production portfolio"
+  },
+  {
+    "id": "code",
+    "title": "Contract-Guided LLM Code Generation",
+    "category": "ai",
+    "label": "AI engineering \u00b7 Code reliability",
+    "desc": "Automated pipelines that generate code, execute tests, diagnose failures, repair solutions, and verify the corrected output.",
+    "stack": [
+      "Python",
+      "PyTorch",
+      "Hugging Face",
+      "PEFT / LoRA",
+      "Docker"
+    ],
+    "flow": [
+      "Generate & validate",
+      "Test & diagnose",
+      "Repair & verify"
+    ],
+    "contribution": [
+      "Built generation, parsing, validation, and integration of preconditions, postconditions, and invariants.",
+      "Prepared datasets and fine-tuned code models using PyTorch, Hugging Face, and PEFT/LoRA.",
+      "Automated benchmark execution and classified logical errors, runtime failures, timeouts, and interface violations.",
+      "Explored failure-aware refinement using contextual bandits and preference learning."
+    ],
+    "context": "MSc thesis engineering \u00b7 York University / University of Calabria"
+  },
+  {
+    "id": "jobs",
+    "title": "Distributed Job Recommendation System",
+    "category": "data",
+    "label": "Data engineering \u00b7 Semantic matching",
+    "desc": "Candidate-to-job matching using distributed processing, semantic retrieval, and relationships between skills and job requirements.",
+    "stack": [
+      "PySpark",
+      "FAISS",
+      "Neo4j",
+      "MongoDB",
+      "RAG"
+    ],
+    "flow": [
+      "Process job data",
+      "Retrieve matches",
+      "Explain fit"
+    ],
+    "contribution": [
+      "Built a distributed candidate and job data pipeline using PySpark.",
+      "Used FAISS for semantic retrieval and Neo4j for candidate, skill, and requirement relationships.",
+      "Added retrieval-grounded explanations beyond direct keyword overlap."
+    ],
+    "context": "Data & AI project"
+  },
+  {
+    "id": "imaging",
+    "title": "Automatic Medical Imaging Report Generator",
+    "category": "ai",
+    "label": "Computer vision \u00b7 Multimodal AI",
+    "desc": "An end-to-end chest X-ray report-generation system connecting visual features with transformer-based text generation.",
+    "stack": [
+      "PyTorch",
+      "ResNet-50",
+      "GPT-2",
+      "Transformers"
+    ],
+    "flow": [
+      "X-ray features",
+      "Visual-language mapping",
+      "Report generation"
+    ],
+    "contribution": [
+      "Prepared imaging data and developed a multimodal model mapping visual embeddings into a language-model representation space.",
+      "Performed fine-tuning, validation, quantitative error analysis, and benchmark evaluation."
+    ],
+    "context": "Applied AI project"
+  },
+  {
+    "id": "chef",
+    "title": "Personal Chef AI",
+    "category": "ai",
+    "label": "Agentic AI \u00b7 Personalization",
+    "desc": "A multi-agent assistant for personalized recipes and step-by-step cooking guidance from dietary preferences and available ingredients.",
+    "stack": [
+      "Multi-agent systems",
+      "LLMs",
+      "Prompt engineering"
+    ],
+    "flow": [
+      "Preferences & ingredients",
+      "Recipe planning",
+      "Cooking guidance"
+    ],
+    "contribution": [
+      "Developed a multi-agent assistant that turns dietary preferences and available ingredients into recipe suggestions.",
+      "Generated personalized cooking instructions through LLM prompting and agent workflows."
+    ],
+    "context": "Applied AI project"
+  },
+  {
+    "id": "emotion",
+    "title": "Emotion-Based Music Player",
+    "category": "ai",
+    "label": "Computer vision \u00b7 Undergraduate project",
+    "desc": "Real-time facial-expression recognition connected to music recommendations based on the detected emotion.",
+    "stack": [
+      "Computer vision",
+      "Machine learning",
+      "Facial-expression recognition"
+    ],
+    "flow": [
+      "Recognize expression",
+      "Predict emotion",
+      "Recommend music"
+    ],
+    "contribution": [
+      "Developed real-time facial-expression recognition and connected predicted emotions to music recommendation.",
+      "Completed the system as the undergraduate thesis in Computer Science and Engineering."
+    ],
+    "context": "BSc thesis project"
+  }
+]
