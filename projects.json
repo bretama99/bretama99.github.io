@@ -23,7 +23,35 @@
       "Participated in requirements analysis, testing, deployment, and production support."
     ],
     "context": "Professional healthcare software",
-    "featured": true
+    "featured": true,
+    "screens": [
+      {
+        "src": "assets/screens/emr-01.webp",
+        "title": "Patient directory",
+        "alt": "CareLedger demo interface: Patient directory"
+      },
+      {
+        "src": "assets/screens/emr-02.webp",
+        "title": "Patient record",
+        "alt": "CareLedger demo interface: Patient record"
+      },
+      {
+        "src": "assets/screens/emr-03.webp",
+        "title": "Laboratory worklist",
+        "alt": "CareLedger demo interface: Laboratory worklist"
+      },
+      {
+        "src": "assets/screens/emr-04.webp",
+        "title": "Result review",
+        "alt": "CareLedger demo interface: Result review"
+      },
+      {
+        "src": "assets/screens/emr-05.webp",
+        "title": "Operational reports",
+        "alt": "CareLedger demo interface: Operational reports"
+      }
+    ],
+    "screen_type": "Designed product-page demo mockups; fictional sample data"
   },
   {
     "id": "food",
@@ -49,7 +77,35 @@
       "Supported menus, order placement, preparation, dispatch, delivery, and status tracking."
     ],
     "context": "Multi-application product",
-    "featured": true
+    "featured": true,
+    "screens": [
+      {
+        "src": "assets/screens/food-01.webp",
+        "title": "Restaurant discovery",
+        "alt": "BiteRoute demo interface: Restaurant discovery"
+      },
+      {
+        "src": "assets/screens/food-02.webp",
+        "title": "Restaurant menu",
+        "alt": "BiteRoute demo interface: Restaurant menu"
+      },
+      {
+        "src": "assets/screens/food-03.webp",
+        "title": "Checkout",
+        "alt": "BiteRoute demo interface: Checkout"
+      },
+      {
+        "src": "assets/screens/food-04.webp",
+        "title": "Restaurant orders",
+        "alt": "BiteRoute demo interface: Restaurant orders"
+      },
+      {
+        "src": "assets/screens/food-05.webp",
+        "title": "Courier delivery",
+        "alt": "BiteRoute demo interface: Courier delivery"
+      }
+    ],
+    "screen_type": "Designed product-page demo mockups; fictional sample data"
   },
   {
     "id": "medical-assistant",
@@ -76,7 +132,35 @@
       "Added source-grounded answers and checks for unsupported output."
     ],
     "context": "Applied AI project",
-    "featured": true
+    "featured": true,
+    "screens": [
+      {
+        "src": "assets/screens/medical-assistant-01.webp",
+        "title": "Knowledge search",
+        "alt": "EvidenceCare demo interface: Knowledge search"
+      },
+      {
+        "src": "assets/screens/medical-assistant-02.webp",
+        "title": "Answer conversation",
+        "alt": "EvidenceCare demo interface: Answer conversation"
+      },
+      {
+        "src": "assets/screens/medical-assistant-03.webp",
+        "title": "Document library",
+        "alt": "EvidenceCare demo interface: Document library"
+      },
+      {
+        "src": "assets/screens/medical-assistant-04.webp",
+        "title": "Evidence inspection",
+        "alt": "EvidenceCare demo interface: Evidence inspection"
+      },
+      {
+        "src": "assets/screens/medical-assistant-05.webp",
+        "title": "Query history",
+        "alt": "EvidenceCare demo interface: Query history"
+      }
+    ],
+    "screen_type": "Designed product-page demo mockups; fictional sample data"
   },
   {
     "id": "pharmacy",
@@ -100,7 +184,35 @@
       "Developed medicine inventory, order processing, interaction checking, online fulfilment, and billing workflows.",
       "Supported controlled access and operational record management."
     ],
-    "context": "Professional healthcare software"
+    "context": "Professional healthcare software",
+    "screens": [
+      {
+        "src": "assets/screens/pharmacy-01.webp",
+        "title": "Prescription inbox",
+        "alt": "RxDesk demo interface: Prescription inbox"
+      },
+      {
+        "src": "assets/screens/pharmacy-02.webp",
+        "title": "Prescription form",
+        "alt": "RxDesk demo interface: Prescription form"
+      },
+      {
+        "src": "assets/screens/pharmacy-03.webp",
+        "title": "Validation detail",
+        "alt": "RxDesk demo interface: Validation detail"
+      },
+      {
+        "src": "assets/screens/pharmacy-04.webp",
+        "title": "Pharmacy inventory",
+        "alt": "RxDesk demo interface: Pharmacy inventory"
+      },
+      {
+        "src": "assets/screens/pharmacy-05.webp",
+        "title": "Fulfilment orders",
+        "alt": "RxDesk demo interface: Fulfilment orders"
+      }
+    ],
+    "screen_type": "Designed product-page demo mockups; fictional sample data"
   },
   {
     "id": "restaurant",
@@ -125,33 +237,90 @@
       "Led or contributed to multi-tenant restaurant-management software.",
       "Professional work across this product portfolio included REST APIs, database architecture, authentication, integrations, and cloud-ready applications."
     ],
-    "context": "Production system; stack reflects the documented production portfolio"
+    "context": "Production system; stack reflects the documented production portfolio",
+    "screens": [
+      {
+        "src": "assets/screens/restaurant-01.webp",
+        "title": "Venue overview",
+        "alt": "Tableline demo interface: Venue overview"
+      },
+      {
+        "src": "assets/screens/restaurant-02.webp",
+        "title": "Tenant venues",
+        "alt": "Tableline demo interface: Tenant venues"
+      },
+      {
+        "src": "assets/screens/restaurant-03.webp",
+        "title": "Menu editor",
+        "alt": "Tableline demo interface: Menu editor"
+      },
+      {
+        "src": "assets/screens/restaurant-04.webp",
+        "title": "Kitchen board",
+        "alt": "Tableline demo interface: Kitchen board"
+      },
+      {
+        "src": "assets/screens/restaurant-05.webp",
+        "title": "Invoices",
+        "alt": "Tableline demo interface: Invoices"
+      }
+    ],
+    "screen_type": "Designed product-page demo mockups; fictional sample data"
   },
   {
     "id": "code",
-    "title": "Contract-Guided LLM Code Generation",
+    "title": "AI4SE: Testing, Code Generation & LLM Evaluation",
     "category": "ai",
-    "label": "AI engineering \u00b7 Code reliability",
-    "desc": "Automated pipelines that generate code, execute tests, diagnose failures, repair solutions, and verify the corrected output.",
+    "label": "AI4SE \u00b7 Testing & model evaluation",
+    "desc": "AI for Software Engineering research spanning software testing, code generation, LLM fine-tuning, agentic AI, and model evaluations.",
     "stack": [
       "Python",
       "PyTorch",
       "Hugging Face",
+      "LLMs",
       "PEFT / LoRA",
-      "Docker"
+      "Agentic AI"
     ],
     "flow": [
-      "Generate & validate",
+      "Generate code",
       "Test & diagnose",
-      "Repair & verify"
+      "Evaluate & refine"
     ],
     "contribution": [
-      "Built generation, parsing, validation, and integration of preconditions, postconditions, and invariants.",
-      "Prepared datasets and fine-tuned code models using PyTorch, Hugging Face, and PEFT/LoRA.",
-      "Automated benchmark execution and classified logical errors, runtime failures, timeouts, and interface violations.",
-      "Explored failure-aware refinement using contextual bandits and preference learning."
+      "Built pipelines for LLM-based code generation, automated software testing, and failure analysis.",
+      "Prepared datasets and fine-tuned LLMs using PyTorch, Hugging Face, and PEFT/LoRA.",
+      "Developed agentic workflows for code generation, repair, and iterative evaluation.",
+      "Evaluated model correctness across coding benchmarks and classified logical errors, runtime failures, timeouts, and interface violations."
     ],
-    "context": "MSc thesis engineering \u00b7 York University / University of Calabria"
+    "context": "AI4SE Researcher \u00b7 York University / University of Calabria",
+    "screens": [
+      {
+        "src": "assets/screens/code-01.webp",
+        "title": "Experiments",
+        "alt": "ForgeLab demo interface: Experiments"
+      },
+      {
+        "src": "assets/screens/code-02.webp",
+        "title": "Code and tests",
+        "alt": "ForgeLab demo interface: Code and tests"
+      },
+      {
+        "src": "assets/screens/code-03.webp",
+        "title": "Fine-tuning configuration",
+        "alt": "ForgeLab demo interface: Fine-tuning configuration"
+      },
+      {
+        "src": "assets/screens/code-04.webp",
+        "title": "Agent activity",
+        "alt": "ForgeLab demo interface: Agent activity"
+      },
+      {
+        "src": "assets/screens/code-05.webp",
+        "title": "Model evaluations",
+        "alt": "ForgeLab demo interface: Model evaluations"
+      }
+    ],
+    "screen_type": "Designed product-page demo mockups; fictional sample data"
   },
   {
     "id": "jobs",
@@ -176,7 +345,35 @@
       "Used FAISS for semantic retrieval and Neo4j for candidate, skill, and requirement relationships.",
       "Added retrieval-grounded explanations beyond direct keyword overlap."
     ],
-    "context": "Data & AI project"
+    "context": "Data & AI project",
+    "screens": [
+      {
+        "src": "assets/screens/jobs-01.webp",
+        "title": "Job search",
+        "alt": "SkillMatch demo interface: Job search"
+      },
+      {
+        "src": "assets/screens/jobs-02.webp",
+        "title": "Match details",
+        "alt": "SkillMatch demo interface: Match details"
+      },
+      {
+        "src": "assets/screens/jobs-03.webp",
+        "title": "Candidate profile",
+        "alt": "SkillMatch demo interface: Candidate profile"
+      },
+      {
+        "src": "assets/screens/jobs-04.webp",
+        "title": "Skill relationships",
+        "alt": "SkillMatch demo interface: Skill relationships"
+      },
+      {
+        "src": "assets/screens/jobs-05.webp",
+        "title": "Saved jobs",
+        "alt": "SkillMatch demo interface: Saved jobs"
+      }
+    ],
+    "screen_type": "Designed product-page demo mockups; fictional sample data"
   },
   {
     "id": "imaging",
@@ -199,7 +396,35 @@
       "Prepared imaging data and developed a multimodal model mapping visual embeddings into a language-model representation space.",
       "Performed fine-tuning, validation, quantitative error analysis, and benchmark evaluation."
     ],
-    "context": "Applied AI project"
+    "context": "Applied AI project",
+    "screens": [
+      {
+        "src": "assets/screens/imaging-01.webp",
+        "title": "Study inbox",
+        "alt": "Radiant Reports demo interface: Study inbox"
+      },
+      {
+        "src": "assets/screens/imaging-02.webp",
+        "title": "Image viewer",
+        "alt": "Radiant Reports demo interface: Image viewer"
+      },
+      {
+        "src": "assets/screens/imaging-03.webp",
+        "title": "Report editor",
+        "alt": "Radiant Reports demo interface: Report editor"
+      },
+      {
+        "src": "assets/screens/imaging-04.webp",
+        "title": "Report comparison",
+        "alt": "Radiant Reports demo interface: Report comparison"
+      },
+      {
+        "src": "assets/screens/imaging-05.webp",
+        "title": "Evaluation workspace",
+        "alt": "Radiant Reports demo interface: Evaluation workspace"
+      }
+    ],
+    "screen_type": "Designed product-page demo mockups; fictional sample data"
   },
   {
     "id": "chef",
@@ -221,7 +446,35 @@
       "Developed a multi-agent assistant that turns dietary preferences and available ingredients into recipe suggestions.",
       "Generated personalized cooking instructions through LLM prompting and agent workflows."
     ],
-    "context": "Applied AI project"
+    "context": "Applied AI project",
+    "screens": [
+      {
+        "src": "assets/screens/chef-01.webp",
+        "title": "Recipe discovery",
+        "alt": "PantryPal demo interface: Recipe discovery"
+      },
+      {
+        "src": "assets/screens/chef-02.webp",
+        "title": "Preferences",
+        "alt": "PantryPal demo interface: Preferences"
+      },
+      {
+        "src": "assets/screens/chef-03.webp",
+        "title": "Pantry",
+        "alt": "PantryPal demo interface: Pantry"
+      },
+      {
+        "src": "assets/screens/chef-04.webp",
+        "title": "Recipe instructions",
+        "alt": "PantryPal demo interface: Recipe instructions"
+      },
+      {
+        "src": "assets/screens/chef-05.webp",
+        "title": "Weekly meal plan",
+        "alt": "PantryPal demo interface: Weekly meal plan"
+      }
+    ],
+    "screen_type": "Designed product-page demo mockups; fictional sample data"
   },
   {
     "id": "emotion",
@@ -243,6 +496,138 @@
       "Developed real-time facial-expression recognition and connected predicted emotions to music recommendation.",
       "Completed the system as the undergraduate thesis in Computer Science and Engineering."
     ],
-    "context": "BSc thesis project"
+    "context": "BSc thesis project",
+    "screens": [
+      {
+        "src": "assets/screens/emotion-01.webp",
+        "title": "Music library",
+        "alt": "Moodplay demo interface: Music library"
+      },
+      {
+        "src": "assets/screens/emotion-02.webp",
+        "title": "Emotion session",
+        "alt": "Moodplay demo interface: Emotion session"
+      },
+      {
+        "src": "assets/screens/emotion-03.webp",
+        "title": "Mood playlist",
+        "alt": "Moodplay demo interface: Mood playlist"
+      },
+      {
+        "src": "assets/screens/emotion-04.webp",
+        "title": "Now playing",
+        "alt": "Moodplay demo interface: Now playing"
+      },
+      {
+        "src": "assets/screens/emotion-05.webp",
+        "title": "Listening history",
+        "alt": "Moodplay demo interface: Listening history"
+      }
+    ],
+    "screen_type": "Designed product-page demo mockups; fictional sample data"
+  },
+  {
+    "id": "ecommerce",
+    "title": "Multi-Vendor E-Commerce & Delivery System",
+    "category": "web",
+    "label": "E-commerce \u00b7 Marketplace & delivery",
+    "desc": "A multi-vendor commerce platform bringing product browsing, ordering, merchant operations, and delivery workflows into one system.",
+    "stack": [
+      "Multi-vendor commerce",
+      "Catalog & orders",
+      "Web & mobile workflows"
+    ],
+    "flow": [
+      "Browse & order",
+      "Merchant operations",
+      "Delivery fulfilment"
+    ],
+    "contribution": [
+      "Customer product browsing, shopping-cart, and ordering workflows.",
+      "Merchant catalog and order management alongside platform administration.",
+      "Order fulfilment and delivery workflows connecting customers, merchants, and delivery operations."
+    ],
+    "context": "E-commerce system",
+    "scope": true,
+    "screens": [
+      {
+        "src": "assets/screens/ecommerce-01.webp",
+        "title": "Marketplace home",
+        "alt": "MarketLane demo interface: Marketplace home"
+      },
+      {
+        "src": "assets/screens/ecommerce-02.webp",
+        "title": "Product detail",
+        "alt": "MarketLane demo interface: Product detail"
+      },
+      {
+        "src": "assets/screens/ecommerce-03.webp",
+        "title": "Cart checkout",
+        "alt": "MarketLane demo interface: Cart checkout"
+      },
+      {
+        "src": "assets/screens/ecommerce-04.webp",
+        "title": "Vendor catalog",
+        "alt": "MarketLane demo interface: Vendor catalog"
+      },
+      {
+        "src": "assets/screens/ecommerce-05.webp",
+        "title": "Order fulfilment",
+        "alt": "MarketLane demo interface: Order fulfilment"
+      }
+    ],
+    "screen_type": "Designed product-page demo mockups; fictional sample data"
+  },
+  {
+    "id": "inventory",
+    "title": "Inventory & Stock Management System",
+    "category": "web",
+    "label": "Business software \u00b7 Inventory operations",
+    "desc": "An inventory system for organizing products, recording stock movements, and tracking stock availability and operational reports.",
+    "stack": [
+      "Inventory management",
+      "Stock tracking",
+      "Reporting"
+    ],
+    "flow": [
+      "Product records",
+      "Stock movements",
+      "Availability & reports"
+    ],
+    "contribution": [
+      "Product and inventory records supporting day-to-day stock operations.",
+      "Stock movement tracking for incoming and outgoing inventory.",
+      "Stock availability monitoring and inventory reporting."
+    ],
+    "context": "Inventory management system",
+    "scope": true,
+    "screens": [
+      {
+        "src": "assets/screens/inventory-01.webp",
+        "title": "Stock overview",
+        "alt": "StockPilot demo interface: Stock overview"
+      },
+      {
+        "src": "assets/screens/inventory-02.webp",
+        "title": "Item detail",
+        "alt": "StockPilot demo interface: Item detail"
+      },
+      {
+        "src": "assets/screens/inventory-03.webp",
+        "title": "Stock receiving",
+        "alt": "StockPilot demo interface: Stock receiving"
+      },
+      {
+        "src": "assets/screens/inventory-04.webp",
+        "title": "Stock transfers",
+        "alt": "StockPilot demo interface: Stock transfers"
+      },
+      {
+        "src": "assets/screens/inventory-05.webp",
+        "title": "Reorder review",
+        "alt": "StockPilot demo interface: Reorder review"
+      }
+    ],
+    "screen_type": "Designed product-page demo mockups; fictional sample data"
   }
 ]
